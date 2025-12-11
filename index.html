@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Neon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="brand">Tienda Demo</div>
+    </header>
+
+    <!-- LAYOUT -->
+    <div class="layout">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <h3>Categorías</h3>
+            <button class="filtro" data-categoria="todo">Todos</button>
+            <button class="filtro" data-categoria="electronica">Electrónica</button>
+            <button class="filtro" data-categoria="ropa">Ropa</button>
+            <button class="filtro" data-categoria="libros">Libros</button>
+
+            <h3>Buscar</h3>
+            <input type="text" id="buscar" placeholder="Buscar producto...">
+        </aside>
+
+        <!-- CATÁLOGO -->
+        <main class="catalogo" id="catalogo"></main>
+    </div>
+
+    <!-- CARRITO FLOTANTE -->
+    <div id="btn-carrito" class="carrito-bubble">
+        🛒 <span id="contador-carrito">0</span>
+    </div>
+
+    <!-- CARRITO LATERAL -->
+    <aside class="carrito" id="carrito">
+        <div class="carrito-header">
+            <h2>Tu carrito</h2>
+            <button id="cerrar-carrito">✕</button>
+        </div>
+
+        <div id="productos-carrito"></div>
+
+        <div class="resumen">
+            <p>Subtotal</p>
+            <h3>$<span id="subtotal">0.00</span></h3>
+            <button id="pagar" class="btn-glow">Pagar</button>
+        </div>
+    </aside>
+
+    <!-- MENSAJE DE ÉXITO -->
+    <div id="mensaje-exito" class="mensaje-exito">
+        ¡Tu compra ha sido exitosa!
+    </div>
+
+    <footer class="footer">
+        Proyecto Demo para clase - HTML + CSS + JS simples
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
