@@ -7,12 +7,12 @@ El sistema permite visualizar productos, filtrarlos, buscarlos y agregarlos a un
 
 ## Características del Proyecto
 
-✔ Catálogo dinámico de productos  
-✔ Filtro por categorías  
-✔ Buscador de productos 
-✔ Carrito lateral intuitivo  
-✔ Contador de artículos en carrito  
-✔ Subtotal dinámico  
+ Catálogo dinámico de productos  
+ Filtro por categorías  
+ Buscador de productos 
+ Carrito lateral intuitivo  
+ Contador de artículos en carrito  
+ Subtotal dinámico  
 
 
 ## Extra del Proyecto
@@ -29,22 +29,11 @@ Incluye:
 ## Tecnologías Utilizadas
 
 - **HTML5**
-- **CSS3**
+- **CSS**
 - **JavaScript**
-- LocalStorage
-
-
-
-## 🚀 GitHub Pages (Proyecto en vivo)
-
-🔗 *Link al proyecto publicado:*  
-(Agrega aquí tu enlace cuando lo generes)
-
-
-🔗 *Link al repositorio en GitHub:*  
-(Agrega aquí tu enlace cuando lo subas)
 
 
 **Diana Reyes Ávila**  
-Matrícula: 23301061550117  
+GitHub User: 23301061550117  
 Materia: Programación Web — 2025  
+
